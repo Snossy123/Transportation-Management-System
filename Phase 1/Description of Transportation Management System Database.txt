@@ -1,0 +1,53 @@
+Transportation Management System entities and their attributes:
+----------------------------------------------------------------------------------------
+Customer:{first name , last name ,Social Security number(SSN) , Email  , Address , mobile number };
+booking office:{number , daily income , Date , address , time open , time close};
+Employee:{license , name {first , second} , email , phone number , address ,  employee id , hire date  ,  job id };
+dependent:{name , birthdate , relationship };
+BUS:{Capacity , Bus id , type , cost }
+company:{name , email , coordinator name , phone number {country code , number } };
+Route:{Duration , route ticket , route id , route point , pickUp point };
+Station:{name ,  station id};
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description of Transportation Management System Database:
+-----------------------------------------------------------------------------------
+1-
+each customer can request a ticket  that contains
+{ price, route id, time, date}  and make a complaint
+that contains { time , date , bus id }  
+and available for him many booking offices
+and vice versa
+each booking office must have customers  
+
+2-
+each bus  must make a registration  that contains
+{time, date}     
+and available for it many booking offices
+and vice versa
+each bus must join the booking office  
+
+3-
+each bus can be bought that contains
+{ model, cost, date}  and maintain
+that contains { cost , date , Spare part  }  
+and available for it one company 
+and 
+each bus must have company  
+
+4-
+Each bus has more than one road, and each road has more than one bus that goes in it
+The bus must go on a road and not on every bus route
+
+5-
+Each road has a number of stations, and each station can be reached by more than one road
+
+6-
+The employees contain a number of drivers, and each driver of them can drive more than one bus, and each bus is driven by more than one driver
+
+7-
+Each manager supervises a number of employees
+
+8-
+The employee may have dependents
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
