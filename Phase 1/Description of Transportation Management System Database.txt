@@ -3,7 +3,7 @@ Transportation Management System entities and their attributes:
 Customer:{first name , last name ,Social Security number(SSN) , Email  , Address , mobile number };
 booking office:{number , daily income , Date , address , time open , time close};
 Employee:{license , name {first , second} , email , phone number , address ,  employee id , hire date  ,  job id };
-dependent:{name , birthdate , relationship };
+dependent:{name , birthdate , relationship , sex};
 BUS:{Capacity , Bus id , type , cost }
 company:{name , email , coordinator name , phone number {country code , number } };
 Route:{Duration , route ticket , route id , route point , pickUp point };
@@ -50,4 +50,15 @@ Each manager supervises a number of employees
 
 8-
 The employee may have dependents
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Attributes of primary key, multiple, and compound  
+-------------------------------------------------------------------
+
+primary key {SSN_Customer , Employee_id , number of booking office , BUS_id , Email _ company  , route_id , Station_id };
+
+multiple {phone number of company};
+
+compound {customer_name , time of booking office , name of employee , time of driving a bus  , phone number of company };
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
