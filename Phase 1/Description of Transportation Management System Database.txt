@@ -14,10 +14,10 @@ Description of Transportation Management System Database:
 -----------------------------------------------------------------------------------
 1-
 each customer can request a ticket  that contains
-{ price, route id, time, date}  and make a complaint
-that contains { time , date , bus id }  
-and available for him many booking offices
-and vice versa
+{ price, route id, time, date}  and make a complaint 
+that contains { time , date , bus id }  In a particular 
+employee to booking office and available for him 
+many booking offices and vice versa
 each booking office must have customers  
 
 2-
