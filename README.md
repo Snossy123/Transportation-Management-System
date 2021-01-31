@@ -7,4 +7,5 @@ This project is form 3 phases
 - ERD Model
 - Schema
 ### Phase 2
+-creat database with use mysql 
 ### Phase 3
